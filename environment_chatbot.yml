@@ -4,7 +4,7 @@ channels:
 dependencies:
   - wheel=0.36.2=pyhd3eb1b0_0
   - pip=21.0.1
-  - python=3.9.2
+  - python=3.7.10
   - pip:
     - absl-py==0.12.0
     - alabaster==0.7.12
@@ -120,7 +120,7 @@ dependencies:
     - tensorboard==2.4.1
     - tensorboard-plugin-wit==1.8.0
     - tensorboardx==2.1
-    - tensorflow
+    - tensorflow=2.4.1
     - tensorflow-estimator==2.4.0
     - termcolor==1.1.0
     - threadpoolctl==2.1.0
