@@ -20,7 +20,7 @@
         "init_model": null,
         "dict_class": "parlai.core.dict:DictionaryAgent",
         "report_filename": "/home/blenderbot/chatbot/chatbot/eval/eval.json",
-        "world_logs": "",
+        "world_logs": "/home/blenderbot/chatbot/chatbot/eval/log.jsonl",
         "save_format": "conversations",
         "num_examples": -1,
         "display_examples": false,
@@ -136,24 +136,25 @@
             "model_file": "/home/blenderbot/chatbot/chatbot/models/bert/model",
             "datapath": "/home/blenderbot/chatbot/chatbot/data",
             "metrics": "ppl,f1",
-            "report_filename": "/home/blenderbot/chatbot/chatbot/eval/eval.json"
+            "report_filename": "/home/blenderbot/chatbot/chatbot/eval/eval.json",
+            "world_logs": "/home/blenderbot/chatbot/chatbot/eval/log.jsonl"
         },
-        "starttime": "Apr10_18-57"
+        "starttime": "Apr10_19-11"
     },
     "report": {
         "exs": 7354,
         "loss": 7.477663620028951,
         "ppl": 1768.104981354547,
         "token_acc": 0.0652239467849224,
-        "exps": 54.880095314748736,
+        "exps": 54.850915337964416,
         "ltpb": 15.331792221920043,
-        "ltps": 841.4131497379271,
+        "ltps": 840.9661107362125,
         "ctpb": 482.5654065814523,
-        "ctps": 26483.343601786906,
+        "ctps": 26469.27231248752,
         "tpb": 497.8971988033723,
-        "tps": 27324.758275500677,
+        "tps": 27310.240114419372,
         "lr": 1e-05,
-        "gpu_mem": 0.008426540650088049,
+        "gpu_mem": 0.00842542172072292,
         "total_train_updates": 2502
     }
 }
